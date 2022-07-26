@@ -26,7 +26,6 @@ func AddUserInfo(w http.ResponseWriter, r *http.Request) {
 
 	if err != nil {
 		fmt.Println(err)
-		// fmt.Errorf("Oh Common man!! %v", err)
 	}
 
 	fmt.Println("Data received: ", info)
@@ -37,6 +36,5 @@ func AddUserInfo(w http.ResponseWriter, r *http.Request) {
 
 	if err != nil {
 		fmt.Println(err)
-		// fmt.Errorf("Oh Common man!! %v", err)
 	}
 }
