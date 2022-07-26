@@ -28,6 +28,7 @@ func AddUserInfo(w http.ResponseWriter, r *http.Request) {
 		fmt.Println(err)
 		// fmt.Errorf("Oh Common man!! %v", err)
 	}
+
 	fmt.Println("Data received: ", info)
 	data = append(data, info)
 	fmt.Println("New data added: ", data)
